@@ -6,7 +6,7 @@ You can find my Note Blog [here](https://note.com/yblockchain)
 
 ## Programming Languages
 
-<img src="https://skillicons.dev/icons?i=html,css,js,python,rust,go,solidity,ruby" /> <br /><br />
+<img src="https://skillicons.dev/icons?i=html,css,js,python,rust,go,solidity,C++" /> <br /><br />
 
 ## Frameworks and Library
 
