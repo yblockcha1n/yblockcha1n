@@ -1,5 +1,2 @@
-# About Me
-
-my tech blog [here](https://note.com/yblockchain)
-
-![](https://github-readme-stats.vercel.app/api/top-langs?username=yblockcha1n&show_icons=true&locale=en&layout=compact)
+<!-- 3D Contributions -->
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="700" alt="3D Contributions (dark)" />
