@@ -1,0 +1,27 @@
+name: Profile Summary Cards
+# GitHub Stats カードを自動生成するワークフロー
+
+on:
+  schedule:
+    # 毎日0時30分（JST）に実行（3D Contributionsと少しずらす）
+    - cron: "30 15 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 9
+          EXCLUDE: ""
+          AUTO_PUSH: true
